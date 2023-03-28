@@ -1,0 +1,123 @@
+.proudly {
+  padding: 120px 0;
+}
+.proudly__title {
+  margin-bottom: 115px;
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #214E41;
+}
+.proudly__logos {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.proudly__logos__list {
+  margin-left: 80px;
+}
+.proudly__logos__list:nth-child(3) {
+  margin-left: 0;
+}
+.proudly__btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0;
+  color: transparent;
+}
+.proudly__btn::after {
+  content: "";
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-top: 2px solid #333;
+  border-left: 2px solid #333;
+}
+.proudly__btn__prev {
+  left: 0;
+  transform: rotate(-45deg);
+}
+.proudly__btn__next {
+  right: 0;
+  transform: rotate(135deg);
+}
+.proudly hr {
+  height: 1px;
+  margin-top: 125px;
+  margin-bottom: 120px;
+  background: rgba(199, 199, 199, 0.37);
+}
+.proudly__row {
+  display: flex;
+  justify-content: space-between;
+}
+.proudly__row__item {
+  text-align: center;
+  max-width: 355px;
+}
+.proudly__row__item__suptitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 18px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #43806C;
+  margin: 20px 0 15px;
+}
+.proudly__row__item__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  color: #214E41;
+}
+
+@media (max-width: 1366px) {
+  .proudly {
+    padding: 80px 0;
+  }
+  .proudly__logos {
+    flex-wrap: wrap;
+  }
+  .proudly__row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .proudly .proudlyhr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 1199px) {
+  .proudly__title {
+    margin-bottom: 60px;
+  }
+  .proudly__logos__list {
+    margin-left: 40px;
+  }
+}
+@media (max-width: 576px) {
+  .proudly {
+    padding: 40px 0;
+  }
+  .proudly__title {
+    margin-bottom: 0;
+  }
+  .proudly__logos__list {
+    display: none;
+  }
+  .proudly__btn__prev {
+    display: none;
+  }
+  .proudly__btn__next {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=proudly.css.map */

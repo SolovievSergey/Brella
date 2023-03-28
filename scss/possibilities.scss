@@ -1,0 +1,48 @@
+.possibilities {
+  position: absolute;
+  z-index: 10;
+  bottom: -120px;
+  left: 120px;
+  right: 120px;
+   
+  &__content {
+    padding: 50px 60px;
+    display: flex;
+    background: #fff;
+  }
+   
+  &__item {
+    position: relative;
+    margin-left: 10px;
+  }
+   
+  &__icons {
+    position: absolute;
+    left: 0;
+    top: 8px;
+  }
+   
+  &__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #214E41;
+    padding-left: 65px;
+  }
+
+  &__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #214E41;
+    padding-left: 65px;
+  }
+}
+
+@media(max-width:991px) {
+  .possibilities {
+     display: none;
+    }
+}

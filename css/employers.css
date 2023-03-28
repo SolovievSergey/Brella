@@ -1,0 +1,121 @@
+.employers {
+  background: url("../img/rectangle 2.jpg") center no-repeat;
+  width: 100%;
+  height: 75vh;
+  background-size: cover;
+  padding: 126px 0;
+}
+.employers__info {
+  max-width: 500px;
+}
+.employers__suptitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 20px;
+  letter-spacing: 0.05px;
+  text-transform: uppercase;
+  color: #43806C;
+  margin-bottom: 20px;
+}
+.employers__title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  color: #214E41;
+}
+.employers__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0.02px;
+  color: #757575;
+  margin-top: 34px;
+  margin-bottom: 24px;
+}
+.employers__subtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0.02px;
+  color: #214E41;
+}
+.employers__subtitle::after {
+  content: "";
+  display: block;
+  width: 88px;
+  height: 2px;
+  background: #214E41;
+  margin-top: 15px;
+}
+
+@media (max-width: 1920px) {
+  .employers {
+    padding: 100px 0;
+  }
+}
+@media (max-width: 1366px) {
+  .employers {
+    padding: 50px 0;
+  }
+}
+@media (max-width: 1199px) {
+  .employers {
+    height: 60vh;
+  }
+}
+@media (max-width: 991px) {
+  .employers {
+    padding: 30px 0 0;
+  }
+  .employers__info {
+    max-width: 360px;
+  }
+  .employers__title {
+    font-size: 25px;
+    line-height: 30px;
+  }
+  .employers__text {
+    font-size: 15px;
+    line-height: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .employers__info {
+    max-width: 230px;
+  }
+  .employers__suptitle {
+    margin-bottom: 15px;
+  }
+  .employers__title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .employers__text {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .employers__subtitle {
+    font-size: 15px;
+  }
+  .employers__subtitle::after {
+    width: 80px;
+    margin-top: 5px;
+  }
+}
+@media (max-width: 576px) {
+  .employers__info {
+    max-width: 186px;
+  }
+  .employers__text {
+    font-size: 13px;
+    line-height: 18px;
+  }
+}
+
+/*# sourceMappingURL=employers.css.map */

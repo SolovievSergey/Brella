@@ -1,0 +1,50 @@
+// Главный список 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import 'header';
+@import 'home';
+@import 'possibilities';
+@import 'statistics';
+@import 'info';
+@import 'intro';
+@import 'employers';
+@import 'proudly';
+@import  'wraper';
+@import 'footer';
+
+
+body {
+  font-family:Roboto,sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.block-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header-container {
+  max-width: 1800px;
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
