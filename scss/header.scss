@@ -1,6 +1,11 @@
 .header {
   padding: 19px 77px 30px 45px;
-
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #fff;
+  z-index: 100;
+  
   &__container {
     max-width: 1440px;
     margin: 0 auto;
@@ -21,11 +26,13 @@
   margin-left: 230px; 
   
     &__item {
-      display: inline-block;
-      vertical-align: top;
       color: #214E41;
       text-decoration: none;
       margin-left: 50px;
+    
+      &:first-child {
+        margin-left: 0;
+      }
     }
   } 
   
@@ -99,7 +106,8 @@
 
 @media(max-width:991px) {
   .header {
-
+   padding: 15px 77px 15px 45px;
+    
     .menu {
 
       &__item {

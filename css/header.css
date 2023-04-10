@@ -1,5 +1,10 @@
 .header {
   padding: 19px 77px 30px 45px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #fff;
+  z-index: 100;
 }
 .header__container {
   max-width: 1440px;
@@ -18,11 +23,12 @@
   margin-left: 230px;
 }
 .header .menu__item {
-  display: inline-block;
-  vertical-align: top;
   color: #214E41;
   text-decoration: none;
   margin-left: 50px;
+}
+.header .menu__item:first-child {
+  margin-left: 0;
 }
 .header .account__item {
   font-size: 14px;
@@ -75,6 +81,9 @@
   }
 }
 @media (max-width: 991px) {
+  .header {
+    padding: 15px 77px 15px 45px;
+  }
   .header .menu__item {
     display: none;
   }

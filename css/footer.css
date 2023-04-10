@@ -184,12 +184,15 @@
   }
 }
 @media (max-width: 767px) {
+  .footer {
+    height: 700px;
+  }
   .footer__header__left__brella {
     margin-left: 60px;
   }
   .footer__header__right {
-    margin-top: 150px;
-    margin-bottom: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
   }
   .footer__header__right__social {
     text-align: center;
